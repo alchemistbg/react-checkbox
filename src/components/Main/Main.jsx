@@ -15,6 +15,7 @@ const Main = () => {
 			<Section
 				header="Checkbox in Functional container"
 				introText="The container of the checkbox is a functional component. Its state is managed by the checkbox using useState hook."
+				ghLink="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Form/Form1FB.jsx"
 			>
 				<div className="FormContainer">
 					<Form1FB />
@@ -52,6 +53,7 @@ const Main = () => {
 			<Section
 				header="Checkbox in Class-based container"
 				introText="This component uses React class-based component. Its state is managed using state object and setState method to change the state."
+				ghLink="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Form/Form1CB.jsx"
 			>
 				<div className="FormContainer">
 					<Form1CB />
@@ -66,6 +68,7 @@ const Main = () => {
 			<Section
 				header="Checkbox in Functional container"
 				introText="The container of the checkbox is a functional component. Its state is managed by the checkbox using useState hook."
+				ghLink="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Form/Form2FB.jsx"
 			>
 				<div className="FormContainer">
 					<Form2FB />
@@ -97,6 +100,7 @@ const Main = () => {
 			<Section
 				header="Checkbox in Class-based container"
 				introText="This component uses React class-based component. Its state is managed using state object and setState method to change the state."
+				ghLink="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Form/Form3CB.jsx"
 			>
 				<div className="FormContainer">
 					<Form3CB />
@@ -130,6 +134,7 @@ const Main = () => {
 			<Section
 				header="Checkbox in Class-based container"
 				introText="This component uses React class-based component. Its state is managed using state object and setState method to change the state."
+				ghLink="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Form/Form4CB.jsx"
 			>
 				<div className="FormContainer">
 					<Form4CB />

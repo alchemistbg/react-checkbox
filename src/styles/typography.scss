@@ -18,3 +18,12 @@ p {
 		margin-bottom: 0;
 	}
 }
+
+a {
+	text-decoration: none;
+	color: orangered;
+
+	&:hover {
+		color: var(--checkbox-main-color);
+	}
+}
