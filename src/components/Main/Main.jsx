@@ -35,14 +35,23 @@ const Main = () => {
 							<strong>
 								<i>after</i>
 							</strong>{" "}
-							pseudo elements.
+							pseudo elements.{" "}
+							<a
+								href="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Checkbox/Checkbox1.jsx"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								Here is the source code of the{" "}
+								<strong>checkbox</strong>
+							</a>
+							.
 						</p>
 					</div>
 				</div>
 			</Section>
 			<Section
 				header="Checkbox in Class-based container"
-				introText="This component uses React classes-based component. Its state is managed using state object and setState method to change the state."
+				introText="This component uses React class-based component. Its state is managed using state object and setState method to change the state."
 			>
 				<div className="FormContainer">
 					<Form1CB />
@@ -62,43 +71,84 @@ const Main = () => {
 					<Form2FB />
 					<div className="formDescription">
 						<p>
-							This <strong>checkbox</strong> component does use
+							This <strong>checkbox</strong> component uses the
 							standard HTML checkbox input element. Its 'checked'
-							attribute set the state of the parent element.
+							attribute set the state of the parent element. When
+							checkbox is in <strong>loading</strong> state this
+							is indicated by using preloader component. An icon
+							from FontAwesome were used to indicate{" "}
+							<strong>
+								<i>checked</i>
+							</strong>{" "}
+							state of the input.{" "}
+							<a
+								href="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Checkbox/Checkbox2.jsx"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								Here is the source code of the{" "}
+								<strong>checkbox</strong>
+							</a>
+							.
 						</p>
 					</div>
 				</div>
 			</Section>
 			<Section
 				header="Checkbox in Class-based container"
-				introText="123456789"
+				introText="This component uses React class-based component. Its state is managed using state object and setState method to change the state."
 			>
 				<div className="FormContainer">
 					<Form3CB />
 					<div className="formDescription">
 						<p>
-							Lorem ipsum, dolor sit amet consectetur adipisicing
-							elit. Atque, molestiae, voluptate est cupiditate a
-							blanditiis similique vitae laudantium quos impedit
-							maiores totam voluptates sit ex reiciendis sint
-							natus libero quas?
+							This <strong>checkbox</strong> functionality is
+							basically the same as the above. The difference is
+							in the used loading animation. Here an icon from
+							FontAwesome were used. Another difference is that
+							when checkbox is in <strong>loading</strong> state,
+							the HTML input element is disabled and the cursor is
+							set to{" "}
+							<strong>
+								<i>not allowed</i>
+							</strong>
+							. This prevent the user to use the checkbox when it
+							is in <strong>loading</strong> state.{" "}
+							<a
+								href="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Checkbox/Checkbox3.jsx"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								Here is the source code of the{" "}
+								<strong>checkbox</strong>
+							</a>
+							.
 						</p>
 					</div>
 				</div>
 			</Section>
 			<Section
 				header="Checkbox in Class-based container"
-				introText="123456789"
+				introText="This component uses React class-based component. Its state is managed using state object and setState method to change the state."
 			>
 				<div className="FormContainer">
 					<Form4CB />
 					<div className="formDescription">
 						<p>
-							Lorem ipsum, dolor sit amet consectetur adipisicing
-							elit. Atque, molestiae, voluptate est cupiditate a
-							blanditiis similique vitae laudantium quos impedit
-							maiores totam voluptates sit ex reiciendis sint
-							natus libero quas?
+							This <strong>checkbox</strong> functionality is
+							basically the same as the above. The difference is
+							that loading animation is played above both the
+							checkbox and its label. Another difference is that
+							the checkbox is square shaped.{" "}
+							<a
+								href="https://github.com/alchemistbg/react-checkbox/blob/master/src/components/Checkbox/Checkbox4.jsx"
+								target="_blank"
+								rel="noreferrer noopener"
+							>
+								Here is the source code of the{" "}
+								<strong>checkbox</strong>
+							</a>
+							.
 						</p>
 					</div>
 				</div>

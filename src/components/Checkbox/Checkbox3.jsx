@@ -2,12 +2,7 @@ import "./Checkbox3.scss";
 
 import React from "react";
 
-// import Spinner from "./../Spinner/Spinner";
-
 const Checkbox3 = (props) => {
-	// const checkboxClasses = ["checkbox", props.checkboxState];
-	// console.log(checkboxClasses);
-
 	return (
 		<div
 			className={`checkbox3-wrapper ${
