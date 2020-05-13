@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "849c6fb9ecd9954f518c3694edc6539d",
+    "revision": "ec9e1648fff1f11cb3c9acb9dbaffed4",
     "url": "/react-checkbox/index.html"
   },
   {
-    "revision": "ddf08a8d17fd1736f6b9",
-    "url": "/react-checkbox/static/css/main.5ab16a75.chunk.css"
+    "revision": "7a122f6cc657894cce96",
+    "url": "/react-checkbox/static/css/main.0afb951e.chunk.css"
   },
   {
     "revision": "b5697d52d40049118b50",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-checkbox/static/js/2.b8ca5b9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ddf08a8d17fd1736f6b9",
+    "revision": "7a122f6cc657894cce96",
     "url": "/react-checkbox/static/js/main.cb2b9447.chunk.js"
   },
   {
