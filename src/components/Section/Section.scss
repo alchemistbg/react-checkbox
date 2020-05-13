@@ -1,0 +1,16 @@
+.Section {
+    .FormContainer {
+        display: flex;
+    }
+
+    .checkbox1-wrapper,
+    .checkbox2-wrapper,
+    .checkbox3-wrapper,
+    .checkbox4-wrapper {
+        width: 8em;
+    }
+
+    .formDescription {
+        margin-left: 0.5em;
+    }
+}

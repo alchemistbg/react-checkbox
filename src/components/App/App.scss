@@ -1,0 +1,22 @@
+.App {
+    user-select: none;
+    margin: auto;
+    min-height: 100vh;
+
+    .Header-container {
+        background: #38A169;
+    }
+
+    .Header,
+    .Main {
+        max-width: 60vw;
+
+        @media (max-width: 800px) {
+            max-width: 75vw;
+        }
+
+        @media (max-width: 600px) {
+            max-width: 90vw;
+        }
+    }
+}

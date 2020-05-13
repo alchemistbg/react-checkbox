@@ -1,0 +1,41 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg) translate(-50%, -50%);
+    }
+
+    to {
+        transform: rotate(360deg) translate(-50%, -50%);
+    }
+}
+
+@keyframes preloader-rotation {
+    from {
+        transform: rotate(0deg) translate(-50%, -50%);
+    }
+
+    to {
+        transform: rotate(360deg) translate(-50%, -50%);
+    }
+}
+
+@keyframes spinner-rotation {
+    from {
+        // transform: rotate(0deg) translate(-50%, -50%);
+        transform: rotate(0deg);
+    }
+
+    to {
+        // transform: rotate(360deg) translate(-50%, -50%);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner-rotation2 {
+    from {
+        transform: rotate(0deg) translate(-50%, -50%);
+    }
+
+    to {
+        transform: rotate(360deg) translate(-50%, -50%);
+    }
+}

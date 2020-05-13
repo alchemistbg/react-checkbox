@@ -1,0 +1,14 @@
+.Spinner {
+    margin: auto;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 2px solid #38A169;
+    border-left-color: white;
+    animation: spinner-rotation 0.5s linear infinite both;
+
+    &.loading {
+        border: 2px solid var(--checkbox-loading-color);
+        border-left-color: white;
+    }
+}
